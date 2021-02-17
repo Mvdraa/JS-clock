@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#background {
+  height: 100vh;
+  margin-top: 0;
+  padding:0;
+  background: url('dark_wood.png');
+  /* Background pattern from Toptal Subtle Patterns */
+}
+.clock {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+}
+p {
+  font-family: Helvetica;
+  font-size: 80px;
+  margin: auto;
+  color: white;
+}
+
